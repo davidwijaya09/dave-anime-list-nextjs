@@ -21,3 +21,32 @@ img {
 img:hover {
   scale: 102%;
 }
+
+.loading {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 16px solid #0000;
+  border-right-color: #B5CB99;
+  position: relative;
+  animation: s4 0.5s infinite linear;
+}
+.loading:before,
+.loading:after {
+  content: "";
+  position: absolute;
+  inset: -16px;
+  border-radius: 50%;
+  border: inherit;
+  animation: inherit;
+  animation-duration: 1s;
+}
+.custom-loader:after {
+  animation-duration: 2s;
+}
+
+@keyframes s4 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
