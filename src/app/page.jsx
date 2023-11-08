@@ -1,9 +1,9 @@
 import AnimeList from "@/components/AnimeList"
 import Header from "@/components/AnimeList/Header";
+import { getAnimeResponse } from "./libs/api-libs";
 
-const Home = async () => {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime?limit=8`)
-  const topAnime = await response.json();
+const Page = async () => {
+  const topAnime = await getAnimeResponse("top/anime", "limit=8")
 
   return (
     <>
@@ -16,4 +16,4 @@ const Home = async () => {
   )
 }
 
-export default Home
+export default Page
