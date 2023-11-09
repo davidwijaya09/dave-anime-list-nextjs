@@ -1,0 +1,7 @@
+2023-11-09 08:36:11.839 [warning] /Users/davidwijaya09/.ssh/config: ENOENT: no such file or directory, open '/Users/davidwijaya09/.ssh/config'
+2023-11-09 08:36:11.840 [info] Activation> Extension version: 0.76.1
+2023-11-09 08:36:11.840 [info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-userdata:/Users/davidwijaya09/Downloads/Macbook Dave/Documents/Project/cuyanimelist/~/.vscode-root/User/globalStorage/github.vscode-pull-request-github/temp'
+2023-11-09 08:36:12.081 [info] Looking for git repository
+2023-11-09 08:36:12.130 [info] Found 0 repositories during activation
+2023-11-09 08:36:12.130 [info] Git repository found, initializing review manager and pr tree view.
+2023-11-09 08:36:12.131 [info] Registering git provider
