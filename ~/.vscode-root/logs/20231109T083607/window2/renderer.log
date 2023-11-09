@@ -1,0 +1,10 @@
+2023-11-09 11:54:08.380 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-dotnettools.dotnet-interactive-vscode' wants API proposal 'languageConfigurationAutoClosingPairs' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-09 11:54:08.705 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-09 11:54:08.738 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2023-11-09 11:54:08.740 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-11-09 11:54:08.783 [info] [Blackboxapp.blackbox]: Command `extension.saveCodeToCloud` already registered by Blackbox AI Code Generation, Code Chat, Code Search (Blackboxapp.blackbox)
+2023-11-09 11:54:09.303 [error] [hollowtree.vue-snippets]: Unknown language in `contributes.vue-snippets.language`. Provided value: vue-html
+2023-11-09 11:54:09.303 [error] [sdras.vue-vscode-snippets]: Unknown language in `contributes.vue-vscode-snippets.language`. Provided value: vue-html
+2023-11-09 11:54:10.610 [error] [Extension Host] (node:39419) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code Helper (Plugin) --trace-deprecation ...` to show where the warning was created)
+2023-11-09 11:54:11.237 [info] [perf] Render performance baseline is 26ms

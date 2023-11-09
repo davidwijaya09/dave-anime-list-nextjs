@@ -1,0 +1,3 @@
+2023-11-09 11:54:10.704 [info] Log level: Info
+2023-11-09 11:54:10.704 [info] Validating found git in: "/opt/homebrew/bin/git"
+2023-11-09 11:54:10.704 [info] Using git "2.41.0" from "/opt/homebrew/bin/git"

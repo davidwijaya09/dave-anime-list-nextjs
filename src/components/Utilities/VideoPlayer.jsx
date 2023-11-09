@@ -20,7 +20,8 @@ const VideoPlayer = ({ youtubeId }) => {
             <div className="fixed bottom-0 right-0 ">
                 <button
                     onClick={handleVideoPlayer}
-                    className="text-color-accent float-right bg-color-primary px-3 mb-1">
+                    className="text-color-accent float-right bg-color-primary px-3 mb-1"
+                >
                     X
                 </button>
                 <Youtube
