@@ -10,7 +10,7 @@ const InputSearch = () => {
         const keyword = searchRef.current.value
 
         if (!keyword || keyword.trim() == "") return
-        
+
         if (event.key === "Enter" || event.type === "click") {
             event.preventDefault()
             router.push(`/search/${keyword}`)
@@ -20,7 +20,7 @@ const InputSearch = () => {
     return (
         <div className="relative">
             <input
-                placeholder="Cari anime..."
+                placeholder="Search Anime..."
                 className="w-full p-2 rounded"
                 ref={searchRef}
                 onKeyDown={handleSearch}
